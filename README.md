@@ -46,6 +46,8 @@ python manage.py runserver
 
 API: http://127.0.0.1:8000/
 
+Settings are read from environment variables (see `backend/.env.example`). Without them the server starts in local development mode. For any real deployment set `DJANGO_SECRET_KEY`, `DJANGO_DEBUG=False` and `DJANGO_ALLOWED_HOSTS`.
+
 ### Frontend
 
 ```bash
