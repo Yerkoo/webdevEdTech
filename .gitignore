@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.sqlite3
+.env
+
+node_modules/
